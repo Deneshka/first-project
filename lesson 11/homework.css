@@ -1,0 +1,16 @@
+/* div{
+width: 100px;
+height:100px;
+background-color: cyan; 
+justify-content: space-between;
+
+} */
+.div_one {
+    position:relative;
+    float:left;
+    left:5px;
+    background-color:rgb(0, 183, 255);
+    width:80px;
+    height:80px;
+}
+    

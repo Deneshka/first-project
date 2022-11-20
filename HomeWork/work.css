@@ -1,0 +1,39 @@
+body {
+	background-color: rgb(34, 209, 157);
+	background-image: url();
+	background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	text-align: center;
+}
+.schet{
+    width:25%;
+    height:150px;
+    background-color:seagreen;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+    z-index: 1;
+    top:200px;
+}
+h1{
+    position: relative;
+    color: azure;
+    font-size: 120px;
+    bottom:80px;
+}
+button{
+    position: relative;
+    background-color:rgb(34, 209, 157) ;
+    border: none;
+    width:10%;
+    height:50px;
+    top:200px;
+}
+img{
+    width: 300px;
+    height:170px;
+}

@@ -1,0 +1,40 @@
+.shadow{
+    background: rgba(90, 89, 89, 0.699);
+    opacity:0.6;
+}
+.modal-window{
+    width:50%;
+    height:50%;
+    display:none;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    overflow:auto;
+    opacity:1;
+    left:350px;
+    top:100px;
+}
+.window-text{
+    border: 1px;
+    width:200px;
+}
+.window-close{
+    color:rgb(46, 112, 112);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.window-close:hover,
+.window-close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* p{
+    position: relative;
+    color: blue;
+    font-size: 50px;
+    left:400px;
+    top:100px;
+    white-space:none;
+} */
